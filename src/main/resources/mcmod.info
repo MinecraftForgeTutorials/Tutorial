@@ -1,0 +1,17 @@
+[
+{
+"modid": "moddingtuts",
+"name": "Modding Tuts",
+"description": "ViolentNinjaD's Minecraft Modding Tutorials.",
+"version": "${version}",
+"mcversion": "${mcversion}",
+"logoFile": "",
+"url": "https://github.com/MinecraftForgeTutorials/Tutorial",
+"updateUrl": "",
+"authorList": [ "ViolentNinjaD"],
+"credits": "",
+"parent": "",
+"screenshots": [],
+"dependencies": []
+}
+]

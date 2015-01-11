@@ -17,13 +17,16 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "b1.0.0.1"
+version = "${mod_version}"
 group= "ninja.moddingtuts" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ModdingTuts"
 
 minecraft {
-    version = "1.7.10-10.13.2.1277"
+    version = "${minecraft_version}-${forge_version}"
     runDir = "eclipse"
+
+    replace "@VERSION@", project.version
+    replaceIn "ModdingTuts.java"
 }
 
 dependencies {
