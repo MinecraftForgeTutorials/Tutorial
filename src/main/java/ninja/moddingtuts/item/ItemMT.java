@@ -7,13 +7,14 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import ninja.moddingtuts.ModdingTuts;
+import ninja.moddingtuts.creativetab.MTTabs;
 
 public class ItemMT extends Item
 {
     public ItemMT()
     {
         super();
-        this.setCreativeTab(CreativeTabs.tabMisc);
+        this.setCreativeTab(MTTabs.tabGeneral);
     }
 
     @Override
